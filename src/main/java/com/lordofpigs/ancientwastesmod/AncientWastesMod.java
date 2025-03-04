@@ -1,4 +1,4 @@
-package com.gamechangers.tutorialmod;
+package com.lordofpigs.ancientwastesmod;
 
 import org.slf4j.Logger;
 
@@ -18,15 +18,15 @@ import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
 
 // The value here should match an entry in the META-INF/neoforge.mods.toml file
-@Mod(TutorialMod.MOD_ID)
-public class TutorialMod
+@Mod(AncientWastesMod.MOD_ID)
+public class AncientWastesMod
 {
-    public static final String MOD_ID = "tutorialmod";
+    public static final String MOD_ID = "ancientwastesmod";
     private static final Logger LOGGER = LogUtils.getLogger();
 
     // The constructor for the mod class is the first code that is run when your mod is loaded.
     // FML will recognize some parameter types like IEventBus or ModContainer and pass them in automatically.
-    public TutorialMod(IEventBus modEventBus, ModContainer modContainer)
+    public AncientWastesMod(IEventBus modEventBus, ModContainer modContainer)
     {
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
