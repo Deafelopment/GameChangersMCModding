@@ -11,7 +11,8 @@ public class ModItems {
 
     public static final DeferredItem<Item> TESSARITE = ITEMS.register("tessarite",
             () -> new Item(new Item.Properties()));
-
+    public static final DeferredItem<Item> RAW_TESSARITE = ITEMS.register("raw_tessarite",
+            () -> new Item(new Item.Properties()));
 
 
     public static void register(IEventBus eventBus) {

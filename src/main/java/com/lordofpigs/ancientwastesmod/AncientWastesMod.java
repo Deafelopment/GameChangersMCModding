@@ -56,6 +56,7 @@ public class AncientWastesMod
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.TESSARITE);
+            event.accept(ModItems.RAW_TESSARITE);
         }
     }
     // You can use SubscribeEvent and let the Event Bus discover methods to call
