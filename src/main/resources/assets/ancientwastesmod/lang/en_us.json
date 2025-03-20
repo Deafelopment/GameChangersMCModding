@@ -1,4 +1,6 @@
 {
   "item.ancientwastesmod.tessarite": "Tessarite",
-  "item.ancientwastesmod.raw_tessarite": "Raw Tessarite"
+  "item.ancientwastesmod.raw_tessarite": "Raw Tessarite",
+
+  "block.ancientwastesmod.tessarite_block": "Block of Tessarite"
 }
