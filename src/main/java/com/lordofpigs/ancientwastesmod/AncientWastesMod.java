@@ -63,6 +63,7 @@ public class AncientWastesMod
 
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.TESSARITE_BLOCK);
+            event.accept(ModBlocks.TESSARITE_ORE);
         }
     }
     // You can use SubscribeEvent and let the Event Bus discover methods to call
