@@ -3,5 +3,8 @@
   "item.ancientwastesmod.raw_tessarite": "Raw Tessarite",
 
   "block.ancientwastesmod.tessarite_block": "Block of Tessarite",
-  "block.ancientwastesmod.tessarite_ore": "Tessarite Ore"
+  "block.ancientwastesmod.tessarite_ore": "Tessarite Ore",
+
+  "creativetab.ancientwastesmod.tessarite_items": "Tessarite Items",
+  "creativetab.ancientwastesmod.tessarite_blocks": "Tessarite Blocks"
 }
