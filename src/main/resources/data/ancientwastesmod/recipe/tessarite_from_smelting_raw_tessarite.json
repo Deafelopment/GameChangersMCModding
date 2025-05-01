@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "group": "tessarite",
+  "category": "misc",
+  "ingredient": {
+    "item": "ancientwastesmod:raw_tessarite"
+  },
+  "result": {
+    "id": "ancientwastesmod:tessarite"
+  },
+  "experience": 0.25,
+  "cookingtime": 200
+}
